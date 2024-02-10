@@ -1,0 +1,100 @@
+CREDITS:
+    The ScorpioX Operating System, Developed By LinearMotion Presents & Technologies Directed
+By Arbab Laiq Ahmed From Peshawar, Pakistan.
+
+ABOUT:
+    This is just a basic Operating System having the Fundamental Concepts of Operating System
+Development. One can take a look at it and can take concept from it, like how can one setup a program, or can also create Operating System Architecture based on this Operating System.
+
+REFERENCES:
+    BOOK:- Operating System Implementation (Latest Edition)
+    OTHER_RESOURCES:
+        1. OSDev Website (www.wiki.osdev.org)
+        2. BrokenThorn Operating System Development(Documentation) Tutorial By Mike.
+        3. Writing Your Own Operating System By Victor Anglemen.(Hands-On).
+        4. Including Several Blogs from Blogspot and Bloggers etc.
+
+HOW TO USE:
+    SYNOPSIS:
+        COMMANDS:
+
+        help:-      Shows Help, Mentions Commands That You Can Use.
+        cpuId:-     Shows CPU Specs, Such As Processor Version, Frequency And Much More.
+        MemoryMap:- Shows The Map Of The Memory, Such as Blocks Of Memory etc(For Experts Only)
+        UserMem:-   Shows Details About Disk Memory That Can Be Used By Any User.
+        mouseInit:- Enables Mouse Functionality(Mouse Can Be Enabled Once).
+        powerLow:-  Shutdowns The System (This Command Can Be Used In Emulators Only).
+        echo:-      Simply Prints Whatever You Write With it, Like This: echo "Hello". "Hello"
+                    Will Get Printed.
+        credits:-   Shows Some Information About Developer.
+        clrscr:-    This Command Simply Clears The Screen (Clears The Previous Commands).
+        FPUInfo:-   This Command Gives Information About FPU(For Experts Only).
+        Stop:-      If You've Enabled The Mouse And You Want To Disable That, Simply Right
+                    Click Any Where On The Screen And Type "Stop" Command, Mouse Will Get Disabled.
+        WriteMode:- This Command Is Used To Write Data To The SATA Drive, It Will Take ID Of
+                    The Data, Name(In Double Quotes), And Finally Data Itself(In Double Quotes)
+        ReadMode:-  This Command Is Used To Read Data From SATA Drive, It Will Take Only ID Of
+                    The Data(You Can Write More Data, But You Can Only Read Last Written Data)
+    Administrator:- This Command Gives Access To The Administrator Mode. It Will Require A
+                    Password To Access Admin Mode, The Password Is "ArbabAhmed"(Without Quote)
+                    Then, One Thing That Need To Be Mentioned Is That Administrator Will Have
+                    More Commands, So Once Admin Mode Is Enabled, Then You Can Use The Following Commands:
+
+ADMINISTRATOR MODE COMMANDS:
+
+    help:-      Shows Help, Mentions Commands That Administrator Can Use.
+    KernelMem:- Admin Has The Right To Check That How Much Memory Kernel Is Consuming.(Also
+                Type), Like What Kind Of Data Is It Using.
+    PagingArch:-This Command Is Basically For The Implementation Of Kernel Paging Concept,
+                But Due To Absence Of FileSystem Such As FAT32 Or NTFS, Its Functionality
+                Is To Restart The System.
+    AccessBIOS:-This Command Is Used To Initialize BIOS Of Our Operating System.
+    PowerUser:- This Command And SuperUser Command Doesn't Do Anything Yet, Just Prints
+                "You Are Now A SuperUser" And "You Are Now A PowerUser".
+    exitAdmin:- This Command Is Used To Exit The Administrator Mode.
+
+
+            So These Were All Commands That I Explained. Now I Also Have Some Bugs Technical
+Bugs In The Code, That I Will Try My Best To Fix In The Near Future. So Now Let Me Mention
+The Bugs.
+
+BUGS:
+    1. powerLow Command Only Works With Emulators, It Turns Off The Emulators Such As QEMU
+        And VirtualBox Effectively, But Doesn't Work When On Proper WorkStation. So In Next
+        Update By The Grace Of Almighty I Will Fix This Bug.
+
+    2. mouseInit Command Initializes The Mouse Once, After That If You Disable The Mouse
+        And Again You Want To Enable That, It Won't Do That, So I Will Try My Best To Fix That As Well.
+
+    3. In WriteMode We Can Write A Lot Of Data To The SATA, But In The ReadMode We Can Just
+        Read The Last Written Data, Just Like A Stack, But Unlike Stack We Cannot Access Other
+        Data(Just Last Written Data).
+
+            So These Are 3 Bugs That Will Get Fixed In The Next Update.
+
+ADVANCEMENTS:
+        Now I Am Also Thinking About Introducing Some More Functionality To This Operating
+    System. So, The Functionalities That Will Be Introduced In This ScoprioX Operating
+    System's Next Update Are:
+
+        1. FileSystem:- I'll Introduce FileSystem So That We Become Able To Directly Access
+            Files Using Their Names. Also We Will Be Able To Find, Delete, Replace Files.
+
+        2. Complete Kernel Paging:- Using Kernel Paging Will Make Us Able To Store More Data On
+            The SATA Than The Physical Size Of SATA We Have.(More Data Less Space Consumption Functionality).
+
+        3. Games:- I'll Introduce Few Games In This Operating System, So That It Can Also
+            Be Used For Entertainment Purposes.
+
+TERMS & PRIVACY:
+    You Can Use This Operating System In The Way You Want.
+
+    All Rights Reserved...
+
+CONTACT US:
+    Email: arbab1laiq@gmail.com
+    Instagram: arbab_laiq
+    Facebook: Arbab Laiq
+
+REGARDS:
+    ARBAB LAIQ AHMED.(DEVELOPER).
